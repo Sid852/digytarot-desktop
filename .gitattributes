@@ -1,0 +1,13 @@
+# Normalize line endings
+
+**/*.js linguist-detectable
+
+public/* linguist-vendored
+
+src/**/*.js linguist-detectable
+package-lock.json linguist-generated
+*.yml linguist-detectable=false
+yarn.lock linguist-generated
+*.min.js linguist-generated
+
+*.ico binary
